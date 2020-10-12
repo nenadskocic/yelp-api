@@ -1,0 +1,32 @@
+{
+  "name": "yelp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "git": "^0.1.5",
+    "nodemon": "^2.0.4",
+    "slackbots": "^1.2.0",
+    "sqlite3": "^5.0.0",
+    "yelp-api": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nenadskocic/yelp-api.git"
+  },
+  "author": "Nenad Skocic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nenadskocic/yelp-api/issues"
+  },
+  "homepage": "https://github.com/nenadskocic/yelp-api#readme"
+}
